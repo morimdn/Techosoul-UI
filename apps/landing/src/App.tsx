@@ -24,8 +24,12 @@ import {
 import { EventDisplay } from "./EventDisplay";
 import { TRACKS } from "./tracks";
 
-const SHOWCASE = "https://morimdn.github.io/Techosoul-UI/";
-const DOCS = "https://morimdn.github.io/Techosoul-UI/#docs-getting-started";
+// The demo site ships the Showcase dashboard under /showcase/ next to this page.
+// In development it runs as its own dev server (npm run dev, port 5180 here).
+const SHOWCASE = import.meta.env.DEV
+  ? (import.meta.env.VITE_SHOWCASE_URL ?? "http://localhost:5180/")
+  : "./showcase/";
+const DOCS = `${SHOWCASE}#docs-getting-started`;
 const REPO = "https://github.com/morimdn/Techosoul-UI";
 const INSTALL = "npm i @techosoul/ui antd";
 

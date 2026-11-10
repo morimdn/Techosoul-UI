@@ -8,6 +8,7 @@
     "dev:landing": "vite --config apps/landing/vite.config.ts --host 0.0.0.0",
     "build": "npm run build:library && npm run typecheck && vite build",
     "build:landing": "npm run build:library && vite build --config apps/landing/vite.config.ts",
+    "build:site": "npm run build:library && vite build --config apps/landing/vite.config.ts --outDir ../../dist-site && vite build --base ./ --outDir ../../dist-site/showcase",
     "test": "vitest run",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
