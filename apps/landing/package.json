@@ -1,0 +1,11 @@
+{
+  "name": "techosoul-landing",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "@techosoul/ui": "0.3.0",
+    "@fontsource-variable/saira": "5.3.0",
+    "@fontsource-variable/martian-mono": "5.3.0"
+  }
+}

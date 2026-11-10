@@ -161,3 +161,6 @@ consumer-test-results/
 artifacts/
 
 pages-test-results/
+
+# Landing page build output
+dist-landing

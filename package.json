@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
+    "dev:landing": "vite --config apps/landing/vite.config.ts --host 0.0.0.0",
     "build": "npm run build:library && npm run typecheck && vite build",
+    "build:landing": "npm run build:library && vite build --config apps/landing/vite.config.ts",
     "test": "vitest run",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",

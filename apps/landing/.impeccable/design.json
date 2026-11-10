@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-10T10:12:28+00:00",
+  "title": "Design System: Techosoul UI Landing",
+  "extensions": {
+    "colorMeta": {
+      "vacuum": {
+        "role": "neutral",
+        "displayName": "Vacuum",
+        "canonical": "#070b12",
+        "tonalRamp": [
+          "#070b12",
+          "#20252d",
+          "#3d424b",
+          "#5c626b",
+          "#7d838d",
+          "#9fa5b0",
+          "#c3cad4",
+          "#e8effa"
+        ]
+      },
+      "vacuum-raised": {
+        "role": "neutral",
+        "displayName": "Vacuum Raised",
+        "canonical": "#0a101a",
+        "tonalRamp": [
+          "#060b15",
+          "#1f2530",
+          "#3b424f",
+          "#5a626f",
+          "#7a8391",
+          "#9da6b4",
+          "#c1cad9",
+          "#e6effe"
+        ]
+      },
+      "detector-steel": {
+        "role": "neutral",
+        "displayName": "Detector Steel",
+        "canonical": "#0f1827",
+        "tonalRamp": [
+          "#040b19",
+          "#1c2535",
+          "#384254",
+          "#576274",
+          "#778397",
+          "#99a6ba",
+          "#bdcadf",
+          "#e6efff"
+        ]
+      },
+      "ring-blue": {
+        "role": "neutral",
+        "displayName": "Ring Blue",
+        "canonical": "#2e4a72",
+        "tonalRamp": [
+          "#00072a",
+          "#092449",
+          "#27426a",
+          "#45628c",
+          "#6584b0",
+          "#87a7d5",
+          "#aacbfb",
+          "#e5efff"
+        ]
+      },
+      "ring-blue-lit": {
+        "role": "neutral",
+        "displayName": "Ring Blue Lit",
+        "canonical": "#4a6fa3",
+        "tonalRamp": [
+          "#00062e",
+          "#012351",
+          "#1f4272",
+          "#3e6295",
+          "#5e84b9",
+          "#80a7df",
+          "#a9ccfc",
+          "#e5effe"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#1a283f",
+        "tonalRamp": [
+          "#020a1f",
+          "#17253c",
+          "#33425b",
+          "#52627c",
+          "#72839f",
+          "#94a6c3",
+          "#b8cae8",
+          "#e6effe"
+        ]
+      },
+      "hairline-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Strong",
+        "canonical": "#263a5a",
+        "tonalRamp": [
+          "#000924",
+          "#122543",
+          "#2e4263",
+          "#4c6285",
+          "#6c83a8",
+          "#8ea6cc",
+          "#b2cbf2",
+          "#e6effe"
+        ]
+      },
+      "readout-white": {
+        "role": "neutral",
+        "displayName": "Readout White",
+        "canonical": "#edf2fb",
+        "tonalRamp": [
+          "#080b11",
+          "#22252c",
+          "#3e4249",
+          "#5d6169",
+          "#7e828b",
+          "#a1a5ae",
+          "#c4c9d2",
+          "#eaeff8"
+        ]
+      },
+      "muted-steel": {
+        "role": "neutral",
+        "displayName": "Muted Steel",
+        "canonical": "#adbad0",
+        "tonalRamp": [
+          "#040b1a",
+          "#1b2536",
+          "#384255",
+          "#566275",
+          "#778398",
+          "#99a6bb",
+          "#bdcae0",
+          "#e6effe"
+        ]
+      },
+      "dim-steel": {
+        "role": "neutral",
+        "displayName": "Dim Steel",
+        "canonical": "#8396b3",
+        "tonalRamp": [
+          "#010a1f",
+          "#16253c",
+          "#32435c",
+          "#51627d",
+          "#7183a0",
+          "#93a6c4",
+          "#b6cbe9",
+          "#e5effe"
+        ]
+      },
+      "signal-primary": {
+        "role": "primary",
+        "displayName": "Signal Primary",
+        "canonical": "#91b5ff",
+        "tonalRamp": [
+          "#00003a",
+          "#071e5b",
+          "#223e7e",
+          "#3f5ea1",
+          "#5f80c6",
+          "#81a4ed",
+          "#b1c9fb",
+          "#e7efff"
+        ]
+      },
+      "signal-positive": {
+        "role": "secondary",
+        "displayName": "Signal Positive",
+        "canonical": "#70dfb2",
+        "tonalRamp": [
+          "#001007",
+          "#002e1e",
+          "#004f37",
+          "#027352",
+          "#199970",
+          "#4bbd92",
+          "#73e2b5",
+          "#c0ffe2"
+        ]
+      },
+      "signal-negative": {
+        "role": "secondary",
+        "displayName": "Signal Negative",
+        "canonical": "#ff9baa",
+        "tonalRamp": [
+          "#210005",
+          "#4d0018",
+          "#741d33",
+          "#983f51",
+          "#be6171",
+          "#e58493",
+          "#fbb2bc",
+          "#ffe8ea"
+        ]
+      },
+      "signal-warning": {
+        "role": "secondary",
+        "displayName": "Signal Warning",
+        "canonical": "#f2cd7e",
+        "tonalRamp": [
+          "#140900",
+          "#312200",
+          "#543e02",
+          "#7a5c09",
+          "#9f7d2b",
+          "#c3a051",
+          "#e9c475",
+          "#feedc9"
+        ]
+      },
+      "signal-info": {
+        "role": "secondary",
+        "displayName": "Signal Info",
+        "canonical": "#becaff",
+        "tonalRamp": [
+          "#05042a",
+          "#1b2049",
+          "#363e6a",
+          "#545e8c",
+          "#757fb0",
+          "#97a2d5",
+          "#bac6fb",
+          "#e9eeff"
+        ]
+      },
+      "action-blue": {
+        "role": "primary",
+        "displayName": "Action Blue",
+        "canonical": "#3268dc",
+        "tonalRamp": [
+          "#00003a",
+          "#00007d",
+          "#0132a3",
+          "#2257c9",
+          "#437bf0",
+          "#78a3f9",
+          "#adcaff",
+          "#e6efff"
+        ]
+      },
+      "action-blue-deep": {
+        "role": "primary",
+        "displayName": "Action Blue Deep",
+        "canonical": "#285ac5",
+        "tonalRamp": [
+          "#00003b",
+          "#00156b",
+          "#05349d",
+          "#2658c3",
+          "#477cea",
+          "#76a3fb",
+          "#afcafc",
+          "#e6efff"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; two lines."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings under a section rule."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Panel, layer and founder titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Explanatory prose, 44-54ch."
+      },
+      "body-lede": {
+        "displayName": "Lede",
+        "purpose": "Hero lede (17px on mobile)."
+      },
+      "label-control": {
+        "displayName": "Control Label",
+        "purpose": "Buttons, nav, copy action."
+      },
+      "label-field": {
+        "displayName": "Field Label",
+        "purpose": "Column heads, field labels, dt terms, ring names."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Measured values; 22px probes, 26px hero readout."
+      },
+      "mono-meta": {
+        "displayName": "Mono Meta",
+        "purpose": "Instrument strips, frame headers, track numbers, readings."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Commands, code blocks, inline code in Signal Primary."
+      }
+    },
+    "shadows": [
+      {
+        "name": "track-glow",
+        "value": "canvas shadowBlur 14px, shadowColor = track colour",
+        "purpose": "Focused primary track only."
+      },
+      {
+        "name": "status-halo",
+        "value": "0 0 0 3px rgba(112, 223, 178, 0.14)",
+        "purpose": "Live run-state dot."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-std",
+        "value": "cubic-bezier(0.2, 0, 0, 1)",
+        "purpose": "Colour, border and opacity transitions (0.18-0.3s)."
+      },
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Icon nudge (0.35s), readout entry (0.45s), cutaway track draw (1.6s)."
+      },
+      {
+        "name": "event-land",
+        "value": "1700ms cubic ease-out, tracks staggered 35ms",
+        "purpose": "Event display draw-in on load."
+      },
+      {
+        "name": "event-inertia",
+        "value": "velocity x 0.94 per frame",
+        "purpose": "Rotation coast after drag; off under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "1180px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "compact-event",
+        "value": "720px (event container width, measured in JS)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Solid Button",
+      "kind": "button",
+      "refersTo": "button-solid",
+      "description": "Primary action: Action Blue fill, wide capitals, square icon well that nudges up-right on hover.",
+      "html": "<a class=\"ds-btn-solid\" href=\"#\">Get started<span class=\"ds-btn-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></span></a>",
+      "css": ":host{--vac:#070b12;--vac-2:#0a101a;--steel:#0f1827;--ring:#2e4a72;--ring-hi:#4a6fa3;--hair:#1a283f;--hair-2:#263a5a;--text:#edf2fb;--muted:#adbad0;--dim:#8396b3;--primary:#91b5ff;--action:#3268dc;--action-hover:#285ac5;--positive:#70dfb2;--negative:#ff9baa;--display:'Saira Variable','Segoe UI',sans-serif;--mono:'Martian Mono Variable',ui-monospace,monospace;--body:'Inter Variable',-apple-system,'Segoe UI',sans-serif;--ease-std:cubic-bezier(0.2,0,0,1);--ease-out:cubic-bezier(0.16,1,0.3,1)} .ds-btn-solid{display:inline-flex;align-items:center;gap:16px;min-height:52px;padding:0 8px 0 20px;border:1px solid var(--action);border-radius:2px;background:var(--action);color:#fff;text-decoration:none;font-family:var(--display);font-stretch:112%;font-size:13px;font-weight:560;letter-spacing:0.14em;text-transform:uppercase;transition:background-color .2s var(--ease-std),transform .16s var(--ease-std)} .ds-btn-solid .ds-btn-icon{display:grid;place-items:center;width:36px;height:36px;border:1px solid rgba(255,255,255,.28);border-radius:2px;transition:transform .35s var(--ease-out)} .ds-btn-solid:hover{background:var(--action-hover)} .ds-btn-solid:hover .ds-btn-icon{transform:translate(2px,-2px)} .ds-btn-solid:active{transform:scale(.98)} .ds-btn-solid:focus-visible{outline:2px solid var(--primary);outline-offset:3px}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action such as Open the Showcase: hairline frame that lights ring-blue on hover.",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">Open the Showcase<span class=\"ds-btn-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></span></a>",
+      "css": ":host{--vac:#070b12;--vac-2:#0a101a;--steel:#0f1827;--ring:#2e4a72;--ring-hi:#4a6fa3;--hair:#1a283f;--hair-2:#263a5a;--text:#edf2fb;--muted:#adbad0;--dim:#8396b3;--primary:#91b5ff;--action:#3268dc;--action-hover:#285ac5;--positive:#70dfb2;--negative:#ff9baa;--display:'Saira Variable','Segoe UI',sans-serif;--mono:'Martian Mono Variable',ui-monospace,monospace;--body:'Inter Variable',-apple-system,'Segoe UI',sans-serif;--ease-std:cubic-bezier(0.2,0,0,1);--ease-out:cubic-bezier(0.16,1,0.3,1)} .ds-btn-outline{display:inline-flex;align-items:center;gap:16px;min-height:52px;padding:0 8px 0 20px;border:1px solid var(--hair-2);border-radius:2px;background:var(--vac);color:var(--text);text-decoration:none;font-family:var(--display);font-stretch:112%;font-size:13px;font-weight:560;letter-spacing:0.14em;text-transform:uppercase;transition:border-color .2s var(--ease-std),background-color .2s var(--ease-std),transform .16s var(--ease-std)} .ds-btn-outline .ds-btn-icon{display:grid;place-items:center;width:36px;height:36px;border:1px solid var(--hair-2);border-radius:2px;transition:transform .35s var(--ease-out)} .ds-btn-outline:hover{border-color:var(--ring-hi);background:rgba(145,181,255,.05)} .ds-btn-outline:hover .ds-btn-icon{transform:translate(2px,-2px)} .ds-btn-outline:active{transform:scale(.98)} .ds-btn-outline:focus-visible{outline:2px solid var(--primary);outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Compact 36px masthead action.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\">GitHub</a>",
+      "css": ":host{--vac:#070b12;--vac-2:#0a101a;--steel:#0f1827;--ring:#2e4a72;--ring-hi:#4a6fa3;--hair:#1a283f;--hair-2:#263a5a;--text:#edf2fb;--muted:#adbad0;--dim:#8396b3;--primary:#91b5ff;--action:#3268dc;--action-hover:#285ac5;--positive:#70dfb2;--negative:#ff9baa;--display:'Saira Variable','Segoe UI',sans-serif;--mono:'Martian Mono Variable',ui-monospace,monospace;--body:'Inter Variable',-apple-system,'Segoe UI',sans-serif;--ease-std:cubic-bezier(0.2,0,0,1);--ease-out:cubic-bezier(0.16,1,0.3,1)} .ds-btn-ghost{display:inline-flex;align-items:center;gap:8px;height:36px;padding:0 14px;border:1px solid var(--hair-2);border-radius:2px;background:var(--vac);color:var(--text);text-decoration:none;font-family:var(--display);font-stretch:112%;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;transition:border-color .18s var(--ease-std),background-color .18s var(--ease-std)} .ds-btn-ghost:hover{border-color:var(--ring-hi);background:rgba(145,181,255,.06)} .ds-btn-ghost:focus-visible{outline:2px solid var(--primary);outline-offset:3px}"
+    },
+    {
+      "name": "Copy Command (primary)",
+      "kind": "custom",
+      "refersTo": "command-primary",
+      "description": "The npm-install action: mono command with dim prompt and a hairline-divided copy button.",
+      "html": "<div class=\"ds-cmd ds-cmd-primary\"><code><span class=\"ds-prompt\">$</span>npm i @techosoul/ui</code><button type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\"/><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"/></svg><span>Copy</span></button></div>",
+      "css": ":host{--vac:#070b12;--vac-2:#0a101a;--steel:#0f1827;--ring:#2e4a72;--ring-hi:#4a6fa3;--hair:#1a283f;--hair-2:#263a5a;--text:#edf2fb;--muted:#adbad0;--dim:#8396b3;--primary:#91b5ff;--action:#3268dc;--action-hover:#285ac5;--positive:#70dfb2;--negative:#ff9baa;--display:'Saira Variable','Segoe UI',sans-serif;--mono:'Martian Mono Variable',ui-monospace,monospace;--body:'Inter Variable',-apple-system,'Segoe UI',sans-serif;--ease-std:cubic-bezier(0.2,0,0,1);--ease-out:cubic-bezier(0.16,1,0.3,1)} .ds-cmd{display:inline-flex;align-items:stretch;min-height:52px;border:1px solid var(--hair-2);border-radius:2px;background:var(--steel)} .ds-cmd code{display:inline-flex;align-items:center;gap:12px;padding:0 18px;font-family:var(--mono);font-size:13.5px;color:var(--text);white-space:nowrap} .ds-prompt{color:var(--dim)} .ds-cmd button{display:inline-flex;align-items:center;gap:8px;padding:0 16px;border:0;border-left:1px solid var(--hair-2);background:transparent;color:var(--muted);font-family:var(--display);font-stretch:112%;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;transition:color .18s var(--ease-std),background-color .18s var(--ease-std)} .ds-cmd button:hover{color:var(--text);background:rgba(145,181,255,.07)} .ds-cmd button:active{transform:scale(.97)} .ds-cmd button:focus-visible{outline:2px solid var(--primary);outline-offset:3px} .ds-cmd-primary{background:var(--action);border-color:var(--action)} .ds-cmd-primary code{color:#fff} .ds-cmd-primary .ds-prompt{color:#fff;opacity:.6} .ds-cmd-primary button{color:#fff;border-left-color:rgba(255,255,255,.24)} .ds-cmd-primary button:hover{background:var(--action-hover);color:#fff}"
+    },
+    {
+      "name": "Instrument Panel with Strip",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Data panel headed by the id / reading / source strip; rows ruled with hairlines, figures in mono.",
+      "html": "<div class=\"ds-panel\"><div class=\"ds-strip\"><span>RUN 0.3.0</span><span><b>4 / 4 PASSED</b></span><span>consumer-*.json</span></div><dl class=\"ds-figures\"><div><dt>Packed size</dt><dd>48.2 <small>kB</small></dd></div><div><dt>Peer dependencies</dt><dd>3</dd></div></dl></div>",
+      "css": ":host{--vac:#070b12;--vac-2:#0a101a;--steel:#0f1827;--ring:#2e4a72;--ring-hi:#4a6fa3;--hair:#1a283f;--hair-2:#263a5a;--text:#edf2fb;--muted:#adbad0;--dim:#8396b3;--primary:#91b5ff;--action:#3268dc;--action-hover:#285ac5;--positive:#70dfb2;--negative:#ff9baa;--display:'Saira Variable','Segoe UI',sans-serif;--mono:'Martian Mono Variable',ui-monospace,monospace;--body:'Inter Variable',-apple-system,'Segoe UI',sans-serif;--ease-std:cubic-bezier(0.2,0,0,1);--ease-out:cubic-bezier(0.16,1,0.3,1)} .ds-panel{border:1px solid var(--hair-2);background:rgba(10,16,26,.6);font-family:var(--body);color:var(--muted)} .ds-strip{display:flex;justify-content:space-between;gap:16px;padding:11px 18px;border-bottom:1px solid var(--hair);background:var(--vac-2);font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--dim)} .ds-strip span:first-child{color:var(--primary);font-weight:600} .ds-strip b{font-weight:600;color:var(--positive)} .ds-figures{margin:0;padding:0 20px} .ds-figures div{display:grid;grid-template-columns:1fr auto;column-gap:24px;padding:18px 0;border-bottom:1px solid var(--hair)} .ds-figures div:last-child{border-bottom:0} .ds-figures dt{font-size:15px;color:var(--text)} .ds-figures dd{margin:0;font-family:var(--mono);font-size:22px;font-weight:500;color:var(--text);text-align:right} .ds-figures dd small{font-size:12px;color:var(--dim)}"
+    },
+    {
+      "name": "Track Label",
+      "kind": "chip",
+      "refersTo": "track-label",
+      "description": "Pinned event-display label: mono number and Saira name in the track role colour, mono reading; selected gets a steel fill.",
+      "html": "<div class=\"ds-tracks\"><button class=\"ds-track is-selected\" style=\"--track:#91b5ff\"><span class=\"ds-no\">01</span><span class=\"ds-name\">CurrencyAmount</span><span class=\"ds-read\">&#8364;12,480.50</span></button><button class=\"ds-track\" style=\"--track:#70dfb2\"><span class=\"ds-no\">02</span><span class=\"ds-name\">PnLIndicator</span><span class=\"ds-read\">+&#8364;318.40</span></button></div>",
+      "css": ":host{--vac:#070b12;--vac-2:#0a101a;--steel:#0f1827;--ring:#2e4a72;--ring-hi:#4a6fa3;--hair:#1a283f;--hair-2:#263a5a;--text:#edf2fb;--muted:#adbad0;--dim:#8396b3;--primary:#91b5ff;--action:#3268dc;--action-hover:#285ac5;--positive:#70dfb2;--negative:#ff9baa;--display:'Saira Variable','Segoe UI',sans-serif;--mono:'Martian Mono Variable',ui-monospace,monospace;--body:'Inter Variable',-apple-system,'Segoe UI',sans-serif;--ease-std:cubic-bezier(0.2,0,0,1);--ease-out:cubic-bezier(0.16,1,0.3,1)} .ds-tracks{display:flex;flex-direction:column;gap:6px;width:244px;background:var(--vac);padding:8px} .ds-track{display:grid;grid-template-columns:28px 1fr;column-gap:8px;padding:9px 12px 10px 10px;border:1px solid transparent;border-radius:2px;background:transparent;color:var(--text);text-align:left;cursor:pointer;transition:background-color .2s var(--ease-std),border-color .2s var(--ease-std),opacity .2s var(--ease-std)} .ds-track:not(.is-selected){opacity:.72} .ds-track:hover,.ds-track:focus-visible{opacity:1;background:rgba(145,181,255,.05)} .ds-track:focus-visible{outline:2px solid var(--primary);outline-offset:3px} .ds-track.is-selected{border-color:var(--hair-2);background:rgba(15,24,39,.9)} .ds-no{grid-row:span 2;padding-top:2px;font-family:var(--mono);font-size:10.5px;color:var(--track)} .ds-name{font-family:var(--display);font-stretch:118%;font-size:11.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--track)} .ds-read{font-family:var(--mono);font-size:12px;color:var(--muted)} .ds-track.is-selected .ds-read{color:var(--text)}"
+    },
+    {
+      "name": "Section Head",
+      "kind": "custom",
+      "refersTo": "headline",
+      "description": "Ring-node hairline rule over an uppercase wide Saira heading; nothing else sits above the heading.",
+      "html": "<div class=\"ds-head\"><span class=\"ds-rule\"></span><h2>Colour is a role, not a value.</h2></div>",
+      "css": ":host{--vac:#070b12;--vac-2:#0a101a;--steel:#0f1827;--ring:#2e4a72;--ring-hi:#4a6fa3;--hair:#1a283f;--hair-2:#263a5a;--text:#edf2fb;--muted:#adbad0;--dim:#8396b3;--primary:#91b5ff;--action:#3268dc;--action-hover:#285ac5;--positive:#70dfb2;--negative:#ff9baa;--display:'Saira Variable','Segoe UI',sans-serif;--mono:'Martian Mono Variable',ui-monospace,monospace;--body:'Inter Variable',-apple-system,'Segoe UI',sans-serif;--ease-std:cubic-bezier(0.2,0,0,1);--ease-out:cubic-bezier(0.16,1,0.3,1)} .ds-head{background:var(--vac);padding:24px} .ds-rule{display:block;position:relative;height:1px;margin-bottom:36px;background:linear-gradient(to right,var(--ring) 0,var(--hair) 40%,transparent 100%)} .ds-rule::before{content:'';position:absolute;left:0;top:-4px;width:9px;height:9px;border:1px solid var(--ring-hi);border-radius:50%;background:var(--vac)} .ds-head h2{margin:0;max-width:20ch;font-family:var(--display);font-stretch:125%;font-weight:600;font-size:clamp(30px,3.5vw,54px);line-height:1.04;letter-spacing:-.005em;text-transform:uppercase;color:var(--text)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Event Display",
+    "overview": "The page is a detector readout. One synthetic payment sits at the beamline, and its seven tracks curve out through concentric rings (tokens, Ant Design 6, Techosoul, your app) to labels pinned on the right edge. Each label holds a real library component. Everything after the hero keeps the instrument's grammar: hairline-ruled tables, steel panels headed by a mono instrument strip, and figures set like measurements. The ground is a near-black vacuum with a faint fixed dot mesh. Light comes only from the signals.\n\nDensity is high but calm. Information sits in ruled rows and framed panels, not in cards. Type works in three registers: wide tracked Saira capitals name things, Martian Mono measures them, and Inter explains them. Corners are close to square (2px) and every boundary is a 1px hairline. The one curved form is the ring, used for the detector, the section-rule node, status dots and the no-entry marks on the scope list.\n\nThe page refuses the dark hero with a tilted product screenshot and the three-card feature grid. The event display takes the hero's place, and ruled tables and panels take the place of feature cards.",
+    "keyCharacteristics": [
+      "Vacuum ground (#070b12) with a fixed 22px dot mesh that fades toward the bottom.",
+      "Colour appears only as signal: the library's dark semantic roles, one role per track.",
+      "Selection isolates: everything that is not focused dims, and the focused element brightens and thickens.",
+      "Saira capitals at 112-125% width for names, Martian Mono for figures and code, Inter for prose.",
+      "2px corners and 1px hairlines everywhere; rings are the only curves.",
+      "Panels are headed by an instrument strip (id · reading · source) in place of eyebrows."
+    ],
+    "rules": [
+      {
+        "name": "The Signal-Only Rule",
+        "body": "Saturated colour on this page means a semantic role, and the hex comes from the library's dark palette. No hue is added for decoration. If a colour cannot be named as positive, negative, primary, warning, info or action, it does not appear.",
+        "section": "colors"
+      },
+      {
+        "name": "The Vacuum Rule",
+        "body": "The ground is always Vacuum with the dot mesh. Depth comes from Vacuum Raised and Detector Steel panels, never from gradients or lighter backgrounds.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Registers Rule",
+        "body": "Saira names, Mono measures, Inter explains. Mono is for figures, code and instrument metadata only. Prose and headings are never set in Mono.",
+        "section": "typography"
+      },
+      {
+        "name": "The Heading Stands Alone Rule",
+        "body": "A heading has a hairline rule with a ring node above it and nothing else. Context about a panel's source goes in its instrument strip, not in a label over the heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Emitted-Light Rule",
+        "body": "Glow is reserved for things that emit signal: a focused track, a live status dot. Panels, buttons and cards never cast shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** take every track, status and signal colour from the library's dark semantic roles (signal-primary, signal-positive, signal-negative, signal-warning, signal-info), one role per meaning.",
+      "**Do** keep the ground Vacuum with the fixed 22px dot mesh, and build depth from translucent Vacuum Raised panels edged in 1px Hairline Strong.",
+      "**Do** head data panels with an instrument strip (id · reading · source) in Martian Mono 11px.",
+      "**Do** put a section rule (a 9px ring node on a gradient hairline) above every section heading.",
+      "**Do** isolate on selection: dim everything unfocused, and brighten and thicken the focus.",
+      "**Do** keep dimmed text at 4.5:1 or better. For Muted Steel or a signal colour on Vacuum, that means no lower than 0.72 opacity. Drawn strokes on the canvas can dim much further.",
+      "**Do** use 2px corners on controls and square corners on panels.",
+      "**Do** set every figure in Martian Mono and keep every value synthetic display data.",
+      "**Do** honour reduced motion: final frame, no inertia, no reveals."
+    ],
+    "donts": [
+      "**Don't** add hues outside the semantic roles, Action Blue and the steel neutrals.",
+      "**Don't** set prose or headings in Mono.",
+      "**Don't** put an eyebrow or kicker line above a heading. Context goes in the instrument strip.",
+      "**Don't** cast box shadows from panels or buttons. Glow belongs only to emitted signal.",
+      "**Don't** box table rows or list items as separate cards. Rule them with hairlines inside one panel. The install steps are the one exception: each step is its own strip-headed panel.",
+      "**Don't** apply this world to the library or the Showcase app."
+    ]
+  }
+}
